@@ -1,0 +1,35 @@
+﻿<Window x:Name="WStatus" x:Class="Drop_Life_test1.WinStatus"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Drop_Life_test1"
+        mc:Ignorable="d"
+        Title="WinStatus" Height="800" Width="1400">
+    <Grid>
+        <Button x:Name="btn_leave" Content="Взад" HorizontalAlignment="Left" Margin="1200,676,0,0" VerticalAlignment="Top" Height="76" Width="148" FontSize="48" FontFamily="Comic Sans MS" Click="btn_leave_Click"/>
+        <Label Content="Денях" HorizontalAlignment="Left" Margin="42,44,0,0" VerticalAlignment="Top" Width="116" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label x:Name="lb_money" Content="1000" HorizontalAlignment="Left" Margin="206,24,0,0" VerticalAlignment="Top" Height="87" Width="252" FontSize="36" FontFamily="QuiverItal" Foreground="#FF1DC992"/>
+        <Label Content="Работа" HorizontalAlignment="Left" Margin="42,111,0,0" VerticalAlignment="Top" Width="134" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label x:Name="lb_work" Content="Работа" HorizontalAlignment="Left" Margin="206,124,0,0" VerticalAlignment="Top" Width="134" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label Content="Рейтинг" HorizontalAlignment="Left" Margin="42,183,0,0" VerticalAlignment="Top" Width="134" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label x:Name="lb_raiting" Content="1000" HorizontalAlignment="Left" Margin="206,163,0,0" VerticalAlignment="Top" Height="87" Width="252" FontSize="36" FontFamily="QuiverItal" Foreground="#FF1DC992"/>
+        <Label Content="Дом" HorizontalAlignment="Left" Margin="42,250,0,0" VerticalAlignment="Top" Width="134" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label Content="Машина" HorizontalAlignment="Left" Margin="42,325,0,0" VerticalAlignment="Top" Width="156" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label Content="Волосы" HorizontalAlignment="Left" Margin="42,397,0,0" VerticalAlignment="Top" Width="156" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label Content="Одежда" HorizontalAlignment="Left" Margin="42,469,0,0" VerticalAlignment="Top" Width="156" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label Content="Мобила" HorizontalAlignment="Left" Margin="42,541,0,0" VerticalAlignment="Top" Width="156" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label Content="Боты" HorizontalAlignment="Left" Margin="42,608,0,0" VerticalAlignment="Top" Width="156" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label Content="Комп" HorizontalAlignment="Left" Margin="42,676,0,0" VerticalAlignment="Top" Width="156" Height="67" FontFamily="Comic Sans MS" FontSize="36"/>
+        <Label x:Name="lb_work_Copy" Content="Имущество" HorizontalAlignment="Left" Margin="100,0,0,0" VerticalAlignment="Top" Width="144" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label x:Name="lb_work_Copy1" Content="Статусы" HorizontalAlignment="Left" Margin="700,0,0,0" VerticalAlignment="Top" Width="144" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label x:Name="lb_home" Content="Дом" HorizontalAlignment="Left" Margin="226,263,0,0" VerticalAlignment="Top" Width="134" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label x:Name="lb_car" Content="Car" HorizontalAlignment="Left" Margin="226,338,0,0" VerticalAlignment="Top" Width="134" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label x:Name="lb_hair" Content="hair" HorizontalAlignment="Left" Margin="226,405,0,0" VerticalAlignment="Top" Width="134" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label x:Name="lb_clothes" Content="clothes" HorizontalAlignment="Left" Margin="226,477,0,0" VerticalAlignment="Top" Width="134" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label x:Name="lb_phone" Content="Phone" HorizontalAlignment="Left" Margin="226,554,0,0" VerticalAlignment="Top" Width="134" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label x:Name="lb_shoes" Content="Shoes" HorizontalAlignment="Left" Margin="226,616,0,0" VerticalAlignment="Top" Width="134" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+        <Label x:Name="lb_pc" Content="PC" HorizontalAlignment="Left" Margin="226,684,0,0" VerticalAlignment="Top" Width="134" Height="51" FontFamily="Comic Sans MS" FontSize="24" Foreground="#FF780202"/>
+
+    </Grid>
+</Window>

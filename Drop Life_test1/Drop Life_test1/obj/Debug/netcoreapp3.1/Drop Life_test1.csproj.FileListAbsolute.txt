@@ -1,0 +1,21 @@
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\bin\Debug\netcoreapp3.1\Drop Life_test1.exe
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\bin\Debug\netcoreapp3.1\Drop Life_test1.deps.json
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\bin\Debug\netcoreapp3.1\Drop Life_test1.runtimeconfig.json
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\bin\Debug\netcoreapp3.1\Drop Life_test1.runtimeconfig.dev.json
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\bin\Debug\netcoreapp3.1\Drop Life_test1.dll
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\bin\Debug\netcoreapp3.1\Drop Life_test1.pdb
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1_MarkupCompile.cache
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1_MarkupCompile.lref
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1.g.resources
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1.AssemblyInfoInputs.cache
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1.AssemblyInfo.cs
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1.csproj.CoreCompileInputs.cache
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1.dll
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1.pdb
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1.genruntimeconfig.cache
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\WinStatus.g.cs
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\WinStatus.baml
+C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\obj\Debug\netcoreapp3.1\Drop Life_test1.csprojAssemblyReference.cache

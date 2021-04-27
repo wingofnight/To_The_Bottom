@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Drop_Life_test1</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ToTHeBottom.wmv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\sam_b\source\repos\Drop Life_test1\Drop Life_test1\MainWindow.xaml.cs" Link="MainWindow.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ToTHeBottom.wmv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,117 @@
+﻿<Window x:Class="Drop_Life_test1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Drop_Life_test1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1280">
+    <Grid x:Name="MyWindow">
+        
+        <Button x:Name="btn_action" Content="Безделье" Margin="1024,552,43,0" Height="70" Click="Button_Action" VerticalAlignment="Top" RenderTransformOrigin="0.486,0.514" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Button x:Name="btn_skip" Content="Спать" HorizontalAlignment="Right" Margin="0,0,38,31" VerticalAlignment="Bottom" Height="92" Width="223" Click="Button_Skip" IsEnabled="False" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="24"/>
+        <Label x:Name="lb_day_nomber" Content="12 may 2021" HorizontalAlignment="Right" Height="109" Margin="0,56,-7,0" VerticalAlignment="Top" Width="269" FontSize="36" FontFamily="Brussels" Background="{x:Null}" Foreground="#FFBF1C1C" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform/>
+                    <RotateTransform Angle="14.669"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="lb_day_name" Content="Mondey" HorizontalAlignment="Right" Height="138" Margin="0,111,-29,0" VerticalAlignment="Top" Width="347" FontSize="72" FontFamily="Brussels" Background="{x:Null}" Foreground="#FFBF1C1C" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-2.455"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBlock x:Name="lb_clock" HorizontalAlignment="Left" Height="131" Margin="1091,182,0,0" Text="10:00" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="72" Foreground="#FF16C990" FontFamily="QuiverItal" RenderTransformOrigin="0.5,0.5" Padding="0,0,0,0" TextAlignment="Left">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.225"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Button x:Name="btn_home" Content="Дом" HorizontalAlignment="Left" Margin="51,79,0,0" VerticalAlignment="Top" Height="37" Width="98" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="20"/>
+        <Button x:Name="btn_garage" Content="Гарагуе" HorizontalAlignment="Left" Margin="175,79,0,0" VerticalAlignment="Top" Height="37" Width="98" FontSize="20" FontWeight="Bold" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btn_hair" Content="Волоса" HorizontalAlignment="Left" Margin="51,143,0,0" VerticalAlignment="Top" Height="37" Width="98" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Button x:Name="btn_clothet" Content="Одёжка" HorizontalAlignment="Left" Margin="175,143,0,0" VerticalAlignment="Top" Height="37" Width="98" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btn_Boots" Content="Боты" HorizontalAlignment="Left" Margin="51,203,0,0" VerticalAlignment="Top" Height="37" Width="98" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Button x:Name="btn_phone" Content="Мобила" HorizontalAlignment="Left" Margin="175,203,0,0" VerticalAlignment="Top" Height="37" Width="98" FontSize="20" FontWeight="Bold" FontFamily="Comic Sans MS" />
+        <Button x:Name="btn_computer" Content="Комок" HorizontalAlignment="Left" Margin="51,267,0,0" VerticalAlignment="Top" Height="37" Width="98" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="20" />
+        <Button x:Name="btn_activity" Content="Движухи" Margin="190,281,941,0" VerticalAlignment="Top" Height="83"  IsDefault="True" FontSize="24" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Button x:Name="btn_Status" Content="Статус" Margin="51,661,1080,0" VerticalAlignment="Top" Height="83"  IsDefault="True" FontFamily="Comic Sans MS" FontSize="24" FontWeight="Bold" Click="btn_Status_Click"/>
+        <Label x:Name="lb_day_fall" Content="0" HorizontalAlignment="Right" Height="134" Margin="0,38,521,0" VerticalAlignment="Top" Width="266" FontSize="72" FontFamily="Brussels" Background="{x:Null}" Foreground="#FFBF1C1C" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-2.455"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="lbdayFallsay" Content="Days in fall" HorizontalAlignment="Right" Height="62" Margin="0,10,540,0" VerticalAlignment="Top" Width="216" FontSize="36" FontFamily="Brussels" Background="{x:Null}" Foreground="#FFBF1C1C" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform/>
+                    <RotateTransform Angle="-13.885"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="59" Margin="224,678,0,0" VerticalAlignment="Top" Width="768" Opacity="0.8" RenderTransformOrigin="0.503,0.533" BorderBrush="Cyan" FontSize="20" FontFamily="Comic Sans MS" Background="{x:Null}">
+            <ProgressBar.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFB0D8"/>
+                    <GradientStop Color="#FF96EEF7" Offset="1"/>
+                    <GradientStop Color="#FF4CECF3" Offset="0.507"/>
+                </LinearGradientBrush>
+            </ProgressBar.Foreground>
+            <ProgressBar.Effect>
+                <BlurEffect/>
+            </ProgressBar.Effect>
+        </ProgressBar>
+        <Label x:Name="lb_raiting" Content="10" HorizontalAlignment="Right" Height="70" Margin="0,676,526,0" VerticalAlignment="Top" Width="263" FontSize="36" FontFamily="Brussels" Background="{x:Null}" Foreground="#FFBF1C1C" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-0.179"/>
+                    <RotateTransform Angle="2.211"/>
+                    <TranslateTransform X="-0.17" Y="-0.007"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="lb_status" Content="Бос" HorizontalAlignment="Left" Margin="464,634,0,0" VerticalAlignment="Top" Width="328" FontSize="20" FontFamily="Comic Sans MS" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lbl_babos" Content="Бабос" HorizontalAlignment="Left" Margin="34,399,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="48" FontWeight="Bold" Foreground="#FF1DC992" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-23.879"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="lb_money" Content="1000" HorizontalAlignment="Left" Margin="38,464,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="128" Width="548" Foreground="#FF1DC992" FontSize="72" FontFamily="QuiverItal" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1.044"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+    </Grid>
+</Window>
